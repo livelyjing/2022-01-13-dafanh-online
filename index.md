@@ -77,7 +77,9 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
+  registration box below, please check your adblocker settings.</strong> 
+  
+ <p> Varying ticket pricing: Students $10 with promo code "Student". Lectures & Adjunct Instructors $20 with promo code "Lec-Adj". Contact the event coordinator for help with these codes. </p>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
