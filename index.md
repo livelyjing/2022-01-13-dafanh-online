@@ -274,6 +274,16 @@ Edit the text to match who can attend the workshop. For instance:
     This workshop is open to graduate students, staff, and instructors at Chico State and CSU, San Bernardino.
 </p>
 
+<p id="funding">
+    <strong>Funding acknowledgement:</strong>
+    This workshop is supported by the Chico State Data Science Initiative, and Project DA-FANH [grant no. 2021-77040-34880] 
+    from the USDA National Institute of Food and Agriculture. Project DA-FANH aims to foster an active, inclusive, 
+    and diverse community of learners and instructors that promote and model the importance of software and data in the 
+    Food, Agriculture, Natural Resources and Human Sciences.
+</p>
+
+  
+  
 <hr/>
 
 {% comment%}
