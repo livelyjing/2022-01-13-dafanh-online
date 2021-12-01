@@ -17,7 +17,7 @@ instructor: ["Robin Donatello (Chico)", "Essia Hamouda (CSUSB)", "Jing Guo (Chic
 helper: ["helper one", "helper two", "helper three"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fanh.analytics@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: "220363171177"    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -78,8 +78,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong> 
-  
- <p> Varying ticket pricing: Students $10 with promo code "Student". Lectures & Adjunct Instructors $20 with promo code "Lec-Adj". Contact the event coordinator for help with these codes. </p>
+
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
@@ -124,6 +123,15 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
+<p id="registration">
+    <strong>Registration fees and links:</strong>
+    Due to COVID-19Space is limited at each site. Use the following links to reserve your spot. 
+    <ul>
+      <li>Chico Faculty <br> Students </li>
+      <li>SB Faculty</li>
+    </ul> 
+</p>
+
 {% comment %}
 LOCATION
 
@@ -158,8 +166,8 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Where:</strong> This training will jointly take place at both Chico and San Bernardino campuses, live streaming from each site. 
+  The instructors will email you with information about directions to the physical location the information you will need to attend this meeting.
 </p>
 {% endif %}
 
@@ -255,33 +263,12 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-{% endcomment %}
-  
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to graduate students, staff, and instructors at Chico State and CSU, San Bernardino.
-</p>
 
 <p id="funding">
-    <strong>Funding acknowledgement:</strong>
-    This workshop is supported by the Chico State Data Science Initiative, and Project DA-FANH [grant no. 2021-77040-34880] 
-    from the USDA National Institute of Food and Agriculture. Project DA-FANH aims to foster an active, inclusive, 
-    and diverse community of learners and instructors that promote and model the importance of software and data in the 
-    Food, Agriculture, Natural Resources and Human Sciences.
+    <strong>Acknowledgement:</strong>
+    This workshop is being offered by Project DA-FANH [grant no. 2021-77040-34880 from the USDA National Institute of Food and Agriculture]. 
+    Project DA-FANH aims to foster an active, inclusive, and diverse community of learners and instructors that promote and model the 
+    importance of software and data in the Food, Agriculture, Natural Resources and Human Sciences.
 </p>
 
   
