@@ -125,10 +125,10 @@ workshop is only open to people from a particular institution.
 
 <p id="registration">
     <strong>Registration fees and links:</strong>
-    Due to COVID-19 space is limited to 20 learners at each site and masks are required. <br>
-    Registration fees are on a sliding scale: $40 for general Tenure track faculty. 
-    $20 for Lecturers and Adjunct faculty with promo code <b>LecAdj</b>
-    $10 for Graduate students with promo code <b>GradStudent</b>
+    Due to COVID-19 space is limited to 20 learners at each site and masks are required. Registration fees are on a sliding scale: <br> 
+    - $40 for general Tenure track faculty. <br>
+    - $20 for Lecturers and Adjunct faculty with promo code <b>LecAdj</b> <br>
+    - $10 for Graduate students with promo code <b>GradStudent</b><br>
     Use the following links to reserve your spot. 
     <ul>
       <li> <a href="https://www.eventbrite.com/e/data-carpentry-for-enhancing-teaching-and-research-using-r-csusb-tickets-221583952567">Chico</a> </li>
