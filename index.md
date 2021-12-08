@@ -131,8 +131,8 @@ workshop is only open to people from a particular institution.
     - $10 for Graduate students with promo code <b>GradStudent</b><br>
     Use the following links to reserve your spot. 
     <ul>
-      <li> <a href="https://www.eventbrite.com/e/data-carpentry-for-enhancing-teaching-and-research-using-r-csusb-tickets-221583952567">Chico</a> </li>
-      <li> <a href="https://www.eventbrite.com/e/data-carpentry-for-enhancing-teaching-and-research-using-r-chico-state-tickets-221601013597">San Bernardino</a> </li>
+      <li> <a href="https://www.eventbrite.com/e/data-carpentry-for-enhancing-teaching-and-research-using-r-chico-state-tickets-221601013597">Chico</a> </li>
+      <li> <a href="https://www.eventbrite.com/e/data-carpentry-for-enhancing-teaching-and-research-using-r-csusb-tickets-221583952567">San Bernardino</a> </li>
     </ul> 
 </p>
 
